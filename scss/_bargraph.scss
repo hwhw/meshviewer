@@ -1,0 +1,69 @@
+.graphaxis text {
+    font: 10px sans-serif;
+}
+.graphaxis path, .graphaxis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+.graphbarmax {
+    fill: #A1BEBE;
+}
+.graphbarmin {
+    fill: #669999;
+}
+.graphoffline {
+    fill: #909090;
+}
+.graphoverlay {
+    fill: none;
+    pointer-events: all;
+}
+.graphhighlight {
+    fill: #BBB;
+    opacity: .5;
+}
+.graphfocus text {
+    fill: #000;
+    font: 10px sans-serif;
+    text-anchor: end;
+}
+.svg-container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 87%; // aspect ratio
+    vertical-align: top;
+    overflow: hidden;
+}
+.svg-content-responsive {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.datasets {
+  padding: 1em 0 0 !important;
+  margin: 0 0 1.5em;
+  list-style: none;
+  font-family: Roboto;
+  text-align: center;
+}
+
+.datasets li {
+  display: inline;
+  text-transform: uppercase;
+  padding: 0 0.7em 0.2em;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.datasets li:hover {
+  color: #dc0067;
+}
+
+.datasets .highlighted {
+  border-bottom: 2pt solid #dc0067;
+  color: #dc0067;
+}
